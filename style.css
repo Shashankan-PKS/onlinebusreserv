@@ -75,6 +75,9 @@ nav ul li select{
     color: whitesmoke;
     cursor: pointer;
 }
+.content button a{
+    color: whitesmoke;
+}
 .content button:hover{
     animation: shake 0.4s infinite;
 }
