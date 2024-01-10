@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: rgb(228, 227, 227);
+}
+nav{
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    height: 80px;
+}
+nav label{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 100px;
+    color: orange;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+nav ul li a:hover , .active{
+    color: orangered;
+}
+nav ul li select{
+    border: none;
+    outline: none;
+    width: 130px;
+    font-size: 18px;
+    background-color: rgb(39, 40, 41);
+    color: orangered;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    padding: 25px;
+    margin-left: 10%;
+}
+.header{
+    display: flex;
+    padding: 20px;
+}
+.header i, .header h2{
+    font-size: 25px;
+    color: navy;
+}
+.table{
+    padding: 10px;
+}
+.table table{
+    border: 1px solid thistle;
+}
+.table thead{
+    background: skyblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.table table tbody tr td button{
+    padding: 6px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.complete{
+    background: gray;
+}
+.process{
+    background: yellow;
+    
+}
+.cancel{
+    color: white;
+    background: rgb(236, 19, 19);
+}
+.confirm{
+    color: white;
+    background: rgba(14, 153, 14, 0.801);
+}
+.table table tbody tr:hover{
+   background: rgba(218, 218, 218, 0.705);
+}
+.table td{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid thistle;
+}
